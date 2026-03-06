@@ -1,10 +1,12 @@
 #!/bin/bash
+#
 # -yarb0b553, made with AI
 # Script used for testing basic popular domains
 # Writes out: STATUS, HOST, PING (avg)
 #
 # for help use -h
 #
+
 # Function to print a table of hosts
 run_ping() {
     local hosts=("$@")
